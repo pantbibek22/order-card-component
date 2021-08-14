@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Order summary card</title>
+  <link href="images/favicon-32x32.png" rel="shortcut icon" type="image/png">
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+    * {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Red Hat Display', sans-serif;
+      width: 100%;
+      height: 100vh;
+      background: url(Images/pattern-background-desktop.svg);
+      background-repeat: no-repeat;
+      max-width: 1440px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .card {
+      width: 350px;
+      height: auto;
+      background-color: white;
+      border-radius: 14px;
+      box-shadow: 0px 1px 10px 1px rgba(0, 0, 0, 0.486);
+    }
+
+    .card__img-wrapper {
+      width: 100%;
+      height: 180px;
+    }
+
+    .card__img-wrapper img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-top-left-radius: 14px;
+      border-top-right-radius: 14px;
+    }
+
+    .card__content {
+      width: 100%;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .card__content h1 {
+      color: rgb(15, 15, 15);
+      margin-bottom: 10px;
+    }
+
+    .card__content .card__about {
+      margin-bottom: 20px;
+      color: rgba(0, 0, 0, 0.712);
+    }
+
+    .card__pricing {
+      display: flex;
+      align-items: center;
+      margin: 0px 10px 30px;
+    }
+
+    .card__pricing .plan {
+      margin-left: 10px;
+    }
+
+    .plan p {
+      color: hsl(224, 23%, 55%);
+    }
+
+    .card__pricing>p {
+      margin-left: auto;
+      margin-right: 20px;
+    }
+
+    .card__pricing>p a {
+      color: hsl(223, 64%, 22%);
+      font-weight: bold;
+    }
+
+    .card__pricing>p a:hover {
+      color: hsl(222, 68%, 35%);
+    }
+
+    .card__content h4 {
+      color: rgb(15, 15, 15);
+    }
+
+    .card__content .card__cta a {
+      width: 300px;
+      display: inline-block;
+      background-color: hsl(245, 76%, 50%);
+      padding: 10px;
+      color: whitesmoke;
+      border-radius: 10px;
+      margin-bottom: 20px;
+      text-decoration: none;
+    }
+
+    .card__content .card__cta a:hover {
+      background: hsl(245, 100%, 51%);
+    }
+
+    .card__footer .order-btn {
+      text-decoration: none;
+      font-weight: bold;
+      color: hsl(223, 64%, 22%);
+    }
+
+    .card__footer .order-btn:hover {
+      color: hsl(222, 68%, 35%);
+    }
+
+  /* MY CODE SEEMS PERFECT FOR MOBILE VIEW AS WELL. Using different background for mobile view
+  is not pretty as same background is doing. So, I sticked with my desktop background.
+    @media screen and (max-width: 640px){
+      body {
+        background: url(images/pattern-background-mobile.svg);
+        background-repeat: repeat-x;
+        background-size:
+      }
+    }
+    */
+  </style>
+</head>
+
+<body>
+
+  <div class="card">
+    <div class="card__img-wrapper">
+      <img src="images/illustration-hero.svg" alt="illustration-hero" />
+    </div>
+    <div class="card__content">
+      <h1>Order Summary</h1>
+      <p class="card__about">
+        You can now listen to millions of songs,
+        audiobooks, and podcasts on any device anywhere you like!
+      </p>
+      <div class="card__pricing">
+        <img src="images/icon-music.svg" alt="icon-music" />
+        <div class="plan">
+          <h4>Annual Plan</h4>
+          <p>$59.99/year</p>
+        </div>
+        <p><a href="#">Change</a></p>
+      </div>
+      <div class="card__footer">
+        <div class="card__cta">
+          <a href="#">Proceed to Payment</a>
+        </div>
+        <p><a href="#" class="order-btn">Cancel Order</a></p>
+      </div>
+    </div>
+  </div>
+
+  <!--
+    DEFAULT HTML AND CSS
+<div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Bibek Pant</a>.
+  </div>
+.attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+-->
+
+</body>
+
+</html>
