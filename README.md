@@ -17,8 +17,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: https://github.com/biebk/order-card-component
+- Live Site URL:https://biebk.github.io/order-card-component/
 
 ## My process
 In order to center the card component I have used css flex in the body. CSS flex can be very handy when it comes to put any items vertically and horizantally center. Except from that, I have used core css knowledge to perfectly build the card component.
@@ -35,8 +35,7 @@ component. For this I have used css flexbox many times.
 
 
 ## Author
-- Frontend Mentor - [@bibe](https://www.frontendmentor.io/profile/yourusername)
-
+- Frontend Mentor - [@bibek] https://www.frontendmentor.io/profile/biebk
 ##  Thank you I you have come so far reading this ! 
 
 
