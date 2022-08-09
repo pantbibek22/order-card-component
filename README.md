@@ -1,9 +1,6 @@
 # Frontend Mentor - Order summary card solution
 
-This is a solution to the [Order summary card challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
-
-## Overview
-This is my solution to second challenge - Frontend Mentor - Order summary card
+This is a solution to the [Order summary card challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj).
 
 ### The challenge
 
@@ -17,8 +14,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: https://github.com/biebk/order-card-component
-- Live Site URL:https://biebk.github.io/order-card-component/
+- Solution URL: [https://github.com/pantbibek21/order-card-component](https://github.com/pantbibek21/order-card-component.git)
+- Live Site URL:[https://pantbibek21.github.io/order-card-component/](https://pantbibek21.github.io/order-card-component/)
 
 ## My process
 In order to center the card component I have used css flex in the body. CSS flex can be very handy when it comes to put any items vertically and horizantally center. Except from that, I have used core css knowledge to perfectly build the card component.
